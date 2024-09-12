@@ -40,13 +40,35 @@ OpenTofu modules allowing to manage github user configuration.
 <!-- BEGIN DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_README -->
 ## 🚀 Usage
 
-### Deploy User with all defaults
+### Deploy User SSH Keys
 
 ```hcl
 module "repo" {
   source = "git::https://framagit.org/rdeville-public/terraform/module-github-user.git"
 
   # Required variables
+  ssh_keys = {
+    "My Github SSH Key" = "ssh-ed25519 ABCDEFGHIJKLMNOPQRSTUVWXYZ Comment"
+    "Another SSH Key" = file(~/.ssh/id_rsa.pub)
+  }
+}
+```
+
+### Deploy User GPG Keys
+
+```hcl
+module "repo" {
+  source = "git::https://framagit.org/rdeville-public/terraform/module-github-user.git"
+
+  # Required variables
+  ssh_keys = {
+    "SSH Key" = file(~/.ssh/id_rsa.pub)
+  }
+
+  # Example value
+  gpg_keys = [
+    "-----BEGIN PGP PUBLIC KEY BLOCK-----\n...\n-----END PGP PUBLIC KEY BLOCK-----"
+  ]
 }
 ```
 
@@ -58,15 +80,79 @@ module "repo" {
 ### Table of Content
 
 * [Requirements](#requirements)
+* [Resources](#resources)
+* [Inputs](#inputs)
+  * [Required Inputs](#required-inputs)
+  * [Optional Inputs](#optional-inputs)
 
 ### Requirements
 
 * [opentofu](https://opentofu.org/docs/):
   `>= 1.8, < 2.0`
-* [github](https://registry.terraform.io/providers//):
+* [github](https://registry.terraform.io/providers/integrations/github/):
   `~>6.2`
 
+### Resources
 
+* [resource.github_user_gpg_key.this](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/user_gpg_key)
+  > Manager user GPG keys
+* [resource.github_user_ssh_key.this](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/user_ssh_key)
+  > Manager user SSH keys
+
+<!-- markdownlint-capture -->
+### Inputs
+
+<!-- markdownlint-disable -->
+#### Required Inputs
+
+* [ssh_keys](#ssh_keys)
+
+##### `ssh_keys`
+
+Map of string, where key is the title of the Key and value is the SSH Key
+
+<div style="display:inline-block;width:100%;">
+<div style="float:left;border-color:#FFFFFF;width:75%;">
+<details><summary>Type</summary>
+
+```hcl
+map(string)
+```
+
+</details>
+</div>
+</div>
+
+#### Optional Inputs
+
+* [gpg_keys](#gpg_keys)
+
+
+##### `gpg_keys`
+
+Set of string, where value is the GPG key, generated in ASCII-armored format
+
+<details style="width: 100%;display: inline-block">
+  <summary>Type & Default</summary>
+  <div style="height: 1em"></div>
+  <div style="width:64%; float:left;">
+  <p style="border-bottom: 1px solid #333333;">Type</p>
+
+  ```hcl
+  set(string)
+  ```
+
+  </div>
+  <div style="width:34%;float:right;">
+  <p style="border-bottom: 1px solid #333333;">Default</p>
+
+  ```hcl
+  []
+  ```
+
+  </div>
+</details>
+<!-- markdownlint-restore -->
 
 </details>
 
