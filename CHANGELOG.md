@@ -1,6 +1,17 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.2.0 (2024-09-12)
+
+### ✨ Minor
+
+  * ✨ Add user SSH and GPG key management (!2) by Romain Deville ([`74bf593`](https://framagit.org/rdeville-public/terraform/module-github-user/-/commit/74bf593a7356245e5457a494e1bb4d76c8cf7e2d))
+  * ✨ Add user SSH and GPG keys management by Romain Deville ([`6710132`](https://framagit.org/rdeville-public/terraform/module-github-user/-/commit/67101327c15541acd7dadaaee36d6de20da4e585)) 🔏
+
+### 🔊 Others
+
+  * 📝 Update README from tf-docs and add examples by Romain Deville ([`3100167`](https://framagit.org/rdeville-public/terraform/module-github-user/-/commit/3100167dfb9795175c5c769c098f2e3aee1a554e)) 🔏
+
 ## v0.1.0 (2024-09-12)
 
 ### ✨ Minor
@@ -24,6 +35,7 @@
   * 📄 Update licenses from DGS by Romain Deville ([`1b11fe1`](https://framagit.org/rdeville-public/terraform/module-github-user/-/commit/1b11fe152146c8353fb7fbfc0f7974b9be0c8295)) 🔏
   * 📝 Add CODE_OF_CONDUCT from DGS by Romain Deville ([`9574706`](https://framagit.org/rdeville-public/terraform/module-github-user/-/commit/9574706d6d2fe6566a82a6149b7d3e482130e4a9)) 🔏
   * 📝 Update README from DGS by Romain Deville ([`60f1b0c`](https://framagit.org/rdeville-public/terraform/module-github-user/-/commit/60f1b0c6c0597ce499805cce305d9f0b0aefe7f1)) 🔏
+  * 🔖 v0.1.0 (NO-CI) by Python Semantic Release [bot] ([`0f6d6bc`](https://framagit.org/rdeville-public/terraform/module-github-user/-/commit/0f6d6bc63e1e26b6e4e922dceddd9313d79c0f35))
   * 🔨 Add .envrc from DGS template by Romain Deville ([`3473ecf`](https://framagit.org/rdeville-public/terraform/module-github-user/-/commit/3473ecf75a23a6f42e17a0f54bb313b14d1cab1a)) 🔏
   * 🔨 Add devbox config from DGS template by Romain Deville ([`bf3a37b`](https://framagit.org/rdeville-public/terraform/module-github-user/-/commit/bf3a37bad3bc0bdefb8029759234826a5859b2dc)) 🔏
   * 🔨 Add pre-commit configuration from DGS template by Romain Deville ([`f6c344b`](https://framagit.org/rdeville-public/terraform/module-github-user/-/commit/f6c344b5cdda6784330a37e00a97bd93842e477d)) 🔏
