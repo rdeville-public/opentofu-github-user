@@ -66,9 +66,9 @@ module "repo" {
   }
 
   # Example value
-  gpg_keys = [
-    "-----BEGIN PGP PUBLIC KEY BLOCK-----\n...\n-----END PGP PUBLIC KEY BLOCK-----"
-  ]
+  gpg_keys = {
+    "Key Identifier" = "-----BEGIN PGP PUBLIC KEY BLOCK-----\n...\n-----END PGP PUBLIC KEY BLOCK-----"
+  }
 }
 ```
 
@@ -130,7 +130,8 @@ map(string)
 
 ##### `gpg_keys`
 
-Set of string, where value is the GPG key, generated in ASCII-armored format
+Map of string, where key is just an identifier and value is the GPG key,
+generated in ASCII-armored format
 
 <details style="width: 100%;display: inline-block">
   <summary>Type & Default</summary>
@@ -139,7 +140,7 @@ Set of string, where value is the GPG key, generated in ASCII-armored format
   <p style="border-bottom: 1px solid #333333;">Type</p>
 
   ```hcl
-  set(string)
+  map(string)
   ```
 
   </div>
@@ -147,7 +148,7 @@ Set of string, where value is the GPG key, generated in ASCII-armored format
   <p style="border-bottom: 1px solid #333333;">Default</p>
 
   ```hcl
-  []
+  {}
   ```
 
   </div>
