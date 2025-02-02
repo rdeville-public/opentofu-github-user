@@ -9,11 +9,12 @@ variable "ssh_keys" {
 
 # User GPG Keys variables
 variable "gpg_keys" {
-  type        = set(string)
+  type        = map(string)
   description = <<-EOM
-  Set of string, where value is the GPG key, generated in ASCII-armored format
+  Map of string, where key is just an identifier and value is the GPG key,
+  generated in ASCII-armored format
   EOM
 
   nullable = false
-  default  = []
+  default  = {}
 }
