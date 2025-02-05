@@ -90,14 +90,14 @@ module "repo" {
 
 * [opentofu](https://opentofu.org/docs/):
   `>= 1.8, < 2.0`
-* [github](https://registry.terraform.io/providers/opentofu/github/):
+* [github](https://search.opentofu.org/provider/integrations/github/):
   `~>6.2`
 
 ### Resources
 
-* [resource.github_user_gpg_key.this](https://registry.terraform.io/providers/opentofu/github/latest/docs/resources/user_gpg_key)
+* [resource.github_user_gpg_key.this](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/user_gpg_key)
   > Manager user GPG keys
-* [resource.github_user_ssh_key.this](https://registry.terraform.io/providers/opentofu/github/latest/docs/resources/user_ssh_key)
+* [resource.github_user_ssh_key.this](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/user_ssh_key)
   > Manager user SSH keys
 
 <!-- markdownlint-capture -->
