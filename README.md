@@ -6,7 +6,7 @@
 
 > ⚠️ IMPORTANT !
 >
-> Main repo is on [framagit.org](https://framagit.org/rdeville-public/terraform/module-github-user).
+> Main repo is on [framagit.org](https://framagit.org/rdeville-public/opentofu/github-user).
 >
 > On other online git platforms, they are just mirror of the main repo.
 >
@@ -26,12 +26,12 @@
 
 </center>
 
-[build_badge]: https://framagit.org/rdeville-public/terraform/module-github-user/badges/main/pipeline.svg
-[build_badge_url]: https://framagit.org/rdeville-public/terraform/module-github-user/-/commits/main
-[release_badge]: https://framagit.org/rdeville-public/terraform/module-github-user/-/badges/release.svg
-[release_badge_url]: https://framagit.org/rdeville-public/terraform/module-github-user/-/releases/
+[build_badge]: https://framagit.org/rdeville-public/opentofu/github-user/badges/main/pipeline.svg
+[build_badge_url]: https://framagit.org/rdeville-public/opentofu/github-user/-/commits/main
+[release_badge]: https://framagit.org/rdeville-public/opentofu/github-user/-/badges/release.svg
+[release_badge_url]: https://framagit.org/rdeville-public/opentofu/github-user/-/releases/
 [license_badge]: https://img.shields.io/badge/Licenses-MIT%20OR%20BEERWARE-blue
-[license_url]: https://framagit.org/rdeville-public/terraform/module-github-user/blob/main/LICENSE
+[license_url]: https://framagit.org/rdeville-public/opentofu/github-user/blob/main/LICENSE
 [changelog_badge]: https://img.shields.io/badge/Changelog-Python%20Semantic%20Release-yellow
 [changelog_badge_url]: https://github.com/python-semantic-release/python-semantic-release
 
@@ -168,8 +168,8 @@ Feel free to check [issues page][issues_pages].
 
 You can also take a look at the [CONTRIBUTING.md][contributing].
 
-[issues_pages]: https://framagit.org/rdeville-public/terraform/module-github-user/-/issues
-[contributing]: https://framagit.org/rdeville-public/terraform/module-github-user/blob/main/CONTRIBUTING.md
+[issues_pages]: https://framagit.org/rdeville-public/opentofu/github-user/-/issues
+[contributing]: https://framagit.org/rdeville-public/opentofu/github-user/blob/main/CONTRIBUTING.md
 
 ## 👤 Maintainers
 
@@ -189,6 +189,6 @@ This project is under following licenses (**OR**) :
 * [MIT][main_license]
 * [BEERWARE][beerware_license]
 
-[main_license]: https://framagit.org/rdeville-public/terraform/module-github-user/blob/main/LICENSE
-[beerware_license]: https://framagit.org/rdeville-public/terraform/module-github-user/blob/main/LICENSE.BEERWARE
+[main_license]: https://framagit.org/rdeville-public/opentofu/github-user/blob/main/LICENSE
+[beerware_license]: https://framagit.org/rdeville-public/opentofu/github-user/blob/main/LICENSE.BEERWARE
 <!-- END DOTGIT-SYNC BLOCK MANAGED -->

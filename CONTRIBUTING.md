@@ -139,7 +139,7 @@ as fast as possible.
 - Can you reliably reproduce the issue? And can you also reproduce it with older
   versions?
 
-[bug_tracker_opened_issues]: https://framagit.org/rdeville-public/terraform/module-github-user/issues/?sort=created_date&state=opened&or[label_name][]=Type%3A%3ABug&or[label_name][]=Type%3A%3ARegression&first_page_size=200
+[bug_tracker_opened_issues]: https://framagit.org/rdeville-public/opentofu/github-user/issues/?sort=created_date&state=opened&or[label_name][]=Type%3A%3ABug&or[label_name][]=Type%3A%3ARegression&first_page_size=200
 
 #### How Do I Submit a Good Bug Report?
 
@@ -202,7 +202,7 @@ the community to understand your suggestion and find related suggestions.
   targeting a minority of users, consider writing an add-on/plugin library if
   the project provide such functionality.
 
-[issues_page]: https://framagit.org/rdeville-public/terraform/module-github-user/-/issues
+[issues_page]: https://framagit.org/rdeville-public/opentofu/github-user/-/issues
 
 #### How Do I Submit a Good Enhancement Suggestion?
 
@@ -277,7 +277,7 @@ installing development environment and runnings tests normally.
 If not, does not hesitate to open an [issue][new_issues_page] to ask maintainers
 to provide some.
 
-[new_issues_page]: https://framagit.org/rdeville-public/terraform/module-github-user/-/issues/new
+[new_issues_page]: https://framagit.org/rdeville-public/opentofu/github-user/-/issues/new
 
 ### Improving The Documentation
 
@@ -482,7 +482,7 @@ attributed to you.
 This guide is adapted from the generator provided on the
 [contributing.md](https://contributing.md/generator) that we gladly thanks ❤️!
 
-[README]: https://framagit.org/rdeville-public/terraform/module-github-user/-/blob/main/README.md
-[CODE_OF_CONDUCT]: https://framagit.org/rdeville-public/terraform/module-github-user/-/blob/main/CODE_OF_CONDUCT.md
-[documentation]: https://framagit.org/rdeville-public/terraform/module-github-user
+[README]: https://framagit.org/rdeville-public/opentofu/github-user/-/blob/main/README.md
+[CODE_OF_CONDUCT]: https://framagit.org/rdeville-public/opentofu/github-user/-/blob/main/CODE_OF_CONDUCT.md
+[documentation]: https://framagit.org/rdeville-public/opentofu/github-user
 <!-- END DOTGIT-SYNC BLOCK MANAGED -->
